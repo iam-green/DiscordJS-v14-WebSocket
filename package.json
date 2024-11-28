@@ -12,24 +12,17 @@
     "fix": "npm run fix:lint && npm run fix:format",
     "fix:format": "npm run fix:prettier",
     "fix:prettier": "prettier --write \"src/**/*.ts\"",
-    "fix:lint": "eslint \"src/**/*.ts\" --fix",
-    "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit push",
-    "studio": "drizzle-kit studio"
+    "fix:lint": "eslint \"src/**/*.ts\" --fix"
   },
   "license": "ISC",
   "dependencies": {
     "chalk": "^4",
-    "dotenv": "^16.4.5",
-    "drizzle-orm": "^0.31.2",
-    "pg": "^8.12.0"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/node": "^20.14.8",
-    "@types/pg": "^8.11.6",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
-    "drizzle-kit": "^0.22.7",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
