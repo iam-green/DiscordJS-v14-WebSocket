@@ -1,5 +1,5 @@
 {
-  "name": "typescript_template",
+  "name": "discordjs-v14-websocket",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -17,7 +17,6 @@
     "migrate": "drizzle-kit push",
     "studio": "drizzle-kit studio"
   },
-  "author": "Past2l",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4",
