@@ -17,10 +17,13 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.8",
+    "@types/ws": "^8.5.13",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "eslint": "^8.57.0",
