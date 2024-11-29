@@ -1,6 +1,7 @@
 import 'dotenv/config';
+import { webSocketInit } from './websocket';
 
 async function bootstrap() {
-  // Input Code Here
+  await webSocketInit();
 }
 bootstrap();
